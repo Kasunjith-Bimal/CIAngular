@@ -19,8 +19,6 @@ script:
 
 after_success:
   - firebase deploy --token $FIREBASE_TOKEN
-  - Username for 'https://github.com': Kasunjith-Bimal
-  - Password for 'https://Kasunjith-Bimal@github.com': kasunysoft123@
   - gh-pages -d dist
 
 notifications:
